@@ -120,13 +120,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EuropeanOptionPricer.cs" />
-    <Compile Include="getImpliedVol.cs" />
-    <Compile Include="getPercentile.cs" />
-    <Compile Include="getRates.cs" />
-    <Compile Include="getSharePrice.cs" />
-    <Compile Include="getYield.cs" />
-    <Compile Include="ImpliedVolatility.cs" />
+    <Compile Include="EuropeanPricer\EuropeanOptionPricer.cs" />
+    <Compile Include="getMarketData\getImpliedVol.cs" />
+    <Compile Include="VaRClasses\getPercentile.cs" />
+    <Compile Include="getMarketData\getRates.cs" />
+    <Compile Include="getMarketData\getSharePrice.cs" />
+    <Compile Include="getMarketData\getYield.cs" />
+    <Compile Include="ImpliedVolatility\ImpliedVolatility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ribbon1.cs">
       <SubType>Component</SubType>
@@ -164,11 +164,11 @@
     <Compile Include="Sheet6.Designer.cs">
       <DependentUpon>Sheet6.Designer.xml</DependentUpon>
     </Compile>
-    <Compile Include="standAloneDividend.cs" />
-    <Compile Include="standAloneEquity.cs" />
-    <Compile Include="standAloneRates.cs" />
-    <Compile Include="standAloneVol.cs" />
-    <Compile Include="staticTotal.cs" />
+    <Compile Include="VaRClasses\standAloneDividend.cs" />
+    <Compile Include="VaRClasses\standAloneEquity.cs" />
+    <Compile Include="VaRClasses\standAloneRates.cs" />
+    <Compile Include="VaRClasses\standAloneVol.cs" />
+    <Compile Include="VaRClasses\staticTotal.cs" />
     <Compile Include="ThisWorkbook.cs">
       <DependentUpon>Market Data.xlsx</DependentUpon>
     </Compile>
