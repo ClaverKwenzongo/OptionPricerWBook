@@ -13,7 +13,6 @@ namespace OptionPricerWBook
             Array.Sort(sequence);
             int N = sequence.Length;
             double n = (N - 1) * excelPercentile + 1;
-            // Another method: double n = (N + 1) * excelPercentile;
             if (n == 1d) return sequence[0];
             else if (n == N) return sequence[N - 1];
             else
